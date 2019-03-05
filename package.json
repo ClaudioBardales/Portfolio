@@ -1,0 +1,19 @@
+{
+  "name": "newportfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for Claudio Bardales",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaudioBardales/Portfolio.git"
+  },
+  "author": "Claudio Bardales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClaudioBardales/Portfolio/issues"
+  },
+  "homepage": "https://github.com/ClaudioBardales/Portfolio#readme"
+}
