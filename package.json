@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ClaudioBardales/Portfolio/issues"
   },
-  "homepage": "https://github.com/ClaudioBardales/Portfolio#readme"
+  "homepage": "https://github.com/ClaudioBardales/Portfolio#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2"
+  }
 }
