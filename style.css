@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR & INTRODUCTION */
+
+.first-section {
+    height: 100vh;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    padding: 2rem;
+}
+
