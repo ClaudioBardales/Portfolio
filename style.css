@@ -3,10 +3,17 @@
     padding: 0;
 }
 
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 /* NAVBAR & INTRODUCTION */
 
 .first-section {
     height: 100vh;
+    background-color: black;
 }
 
 nav ul {
@@ -19,4 +26,34 @@ nav ul {
 nav ul li {
     padding: 2rem;
 }
+
+li a {
+    text-decoration: none;
+    background-color:yellow;
+    color: black;
+	border-radius:28px;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:20px;
+	padding:15px 40px;
+	text-decoration:none;
+
+}
+
+.introduction {
+    color: white;
+    text-align: center;
+    margin-top: 140px;
+    margin-right: 800px;
+}
+
+.introduction h1 {
+    font-size: 45px;
+}
+
+.introduction p {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+
 
