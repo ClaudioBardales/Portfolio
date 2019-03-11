@@ -46,33 +46,37 @@ li a {
 .introduction {
     color: #D3D3D3;
     text-align: center;
-    margin-top: 140px;
-    margin-right: 800px;
+    margin-top: 150px;
+    margin-right: 1000px;
 }
 
 .introduction h1 {
-    font-size: 45px;
+    font-size: 85px;
 }
 
 .introduction p {
-    font-size: 30px;
+    font-size: 50px;
+    font-family: 'Annie Use Your Telescope', cursive;
     letter-spacing: 1.5px;
 }
 
 #first-shape {
+    position: absolute;
+    top: 735px;
     margin-top: 70px;
     background-color: yellow; 
     height: 50px; 
-    width: 310px; 
+    width: 400px; 
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px; 
 }
 
 #second-shape {
-    margin-top: 48px;
+    position: absolute;
+    bottom: 24px;
     background-color: yellow; 
     height: 50px; 
-    width: 310px; 
+    width: 800px; 
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px; 
 
