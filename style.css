@@ -6,6 +6,7 @@
 
 html, body {
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 section {
@@ -83,6 +84,38 @@ li a {
 }
 
 /* ABOUT ME */
+
+.aboutme {
+    background-color: white;
+}
+
+.title {
+    margin-top: 240px; 
+    background-color: yellow;
+    height: 57px;
+    width: 1200px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;  
+}
+
+.title h1 {
+    font: black;
+    font-size: 2rem;
+    padding-top: 11px;
+    padding-right: 145px;
+    margin-top: 240px; 
+    text-align: right;
+}
+
+/* #third-shape {
+    position: absolute;
+    top: 1158px; 
+    background-color: yellow;
+    height: 57px;
+    width: 1100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+} */
 
 
 
