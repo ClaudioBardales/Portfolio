@@ -40,8 +40,6 @@ li a {
 	font-family:Arial;
 	font-size:20px;
 	padding:15px 45px;
-	text-decoration:none;
-
 }
 
 .introduction {
@@ -107,15 +105,13 @@ li a {
     text-align: right;
 }
 
-/* #third-shape {
-    position: absolute;
-    top: 1158px; 
-    background-color: yellow;
-    height: 57px;
-    width: 1100px;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-} */
+.bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
 
 
 
