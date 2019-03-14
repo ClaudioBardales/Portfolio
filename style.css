@@ -100,7 +100,7 @@ li a {
     font: black;
     font-size: 2rem;
     padding-top: 11px;
-    padding-right: 145px;
+    padding-right: 180px;
     margin-top: 240px; 
     text-align: right;
 }
@@ -108,7 +108,25 @@ li a {
 .bio {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.bio p:nth-child(odd){
+    margin-top:200px;
+    margin-right: 230px;
+}
+
+.bio p:nth-child(even){
+    margin: 200px;
+    line-height: 1.6;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    color: grey;
+}
+
+.resumebutton {
+    margin: 0;
 }
 
 
