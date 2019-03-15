@@ -108,25 +108,26 @@ li a {
 .bio {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.bio p:nth-child(odd){
+.bio div:nth-child(odd){
     margin-top:200px;
     margin-right: 230px;
 }
 
-.bio p:nth-child(even){
+.bio div:nth-child(even){
     margin: 200px;
     line-height: 1.6;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     font-weight: 400;
     color: grey;
 }
 
 .resumebutton {
-    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 
