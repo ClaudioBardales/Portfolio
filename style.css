@@ -119,6 +119,7 @@ li a {
 }
 
 .bio div:nth-child(even){
+    padding: 35px;
     line-height: 1.5;
     font-size: 60px;
     text-align: center;
@@ -127,31 +128,34 @@ li a {
 }
 
 .resumeButton {
-    background-color:#44c767;
+    background-color:yellow;
 	-moz-border-radius:28px;
 	-webkit-border-radius:28px;
 	border-radius:28px;
-	border:1px solid #18ab29;
+	border:1px solid yellow;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:black;
 	font-family:Arial;
 	font-weight:bold;
     text-decoration:none;
     padding: 10px;
-    text-shadow:0px 1px 0px #2f6627;
     margin-left: 1320px;
     border: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .resumeButton:hover {
-	background-color:#5cbf2a;
+    background-color:white;
+    border:3px solid yellow;
 }
-.resumeButton:active {
-	position:relative;
-	top:1px;
-}
+
+/* PROJECTS SECTION */
+
+
+/* FOOTER/CONTACT SECTION */
+
+
 
 
 
