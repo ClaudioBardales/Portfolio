@@ -151,9 +151,66 @@ li a {
 }
 
 /* PROJECTS SECTION */
+#myprojects {
+    height: 100vh;
+    background-color: black;
+}
 
 
 /* FOOTER/CONTACT SECTION */
+ #contacts {
+     height: 50vh;
+ }
+
+ .fourth-shape {
+    position: absolute;
+    background-color: yellow; 
+    top: 3070px;
+    height: 57px; 
+    width: 1200px;
+    margin-right: 743px; 
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+ }
+
+.fourth-shape h1 {
+    font: black;
+    font-size: 2rem;
+    padding-top: 11px;
+    padding-right: 156px;
+    margin-right: 122px;
+    text-align: right;
+}
+
+.email {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.email p {
+    font-weight: 700;
+    font-size: 25px;
+    color: #676262;
+    text-shadow: 1px black;
+}
+
+.links {
+    margin-top:100px;
+}
+
+.links li a{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* .github {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+} */
 
 
 
