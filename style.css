@@ -195,25 +195,24 @@ li a {
 }
 
 .links {
-    margin-top:100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
 }
 
-.links li a{
-    background-color: black;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+.links a {
+    padding: 30px;
+    font-size: 40px;
+    color: black;
 }
 
-/* .github {
-    background-color: black;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-} */
-
-
-
+.contact p {
+    text-align: center;
+    margin-top: 180px;
+    color: #676262;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
 
 
 
