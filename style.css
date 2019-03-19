@@ -1,225 +1,232 @@
 /* GLOBAL STYLES */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
-    font-family: Arial, Helvetica, sans-serif;
-    scroll-behavior: smooth;
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
 
 section {
-    height: 100vh;
+  height: 100vh;
 }
 
 /* NAVBAR & INTRODUCTION */
 
 .first-section {
-    height: 95vh;
-    background-color: black;
+  height: 95vh;
+  background-color: black;
 }
 
 nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 li a {
-    text-decoration: none;
-    background-color:yellow;
-    color: black;
-	border-radius:28px;
-	cursor:pointer;
-	font-family:Arial;
-	font-size:20px;
-	padding:15px 45px;
+  text-decoration: none;
+  background-color: yellow;
+  color: black;
+  border-radius: 28px;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 15px 45px;
 }
 
 .introduction {
-    color: #D3D3D3;
-    text-align: center;
-    margin-top: 150px;
-    margin-right: 1000px;
+  color: #d3d3d3;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 1000px;
 }
 
 .introduction h1 {
-    font-size: 85px;
+  font-size: 85px;
 }
 
 .introduction p {
-    font-size: 50px;
-    font-family: 'Annie Use Your Telescope', cursive;
-    letter-spacing: 1.5px;
+  font-size: 50px;
+  font-family: "Annie Use Your Telescope", cursive;
+  letter-spacing: 1.5px;
 }
 
 #first-shape {
-    position: absolute;
-    top: 735px;
-    margin-top: 70px;
-    background-color: yellow; 
-    height: 50px; 
-    width: 400px; 
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px; 
+  position: absolute;
+  top: 735px;
+  margin-top: 70px;
+  background-color: yellow;
+  height: 50px;
+  width: 400px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 
 #second-shape {
-    position: absolute;
-    bottom: 24px;
-    background-color: yellow; 
-    height: 50px; 
-    width: 800px; 
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px; 
-
+  position: absolute;
+  bottom: 24px;
+  background-color: yellow;
+  height: 50px;
+  width: 800px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 
 /* ABOUT ME */
 
 .aboutme {
-    background-color: white;
+  background-color: white;
 }
 
 .title {
-    margin-top: 240px; 
-    background-color: yellow;
-    height: 57px;
-    width: 1200px;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;  
+  margin-top: 240px;
+  background-color: yellow;
+  height: 57px;
+  width: 1200px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 
 .title h1 {
-    font: black;
-    font-size: 2rem;
-    padding-top: 11px;
-    padding-right: 180px;
-    margin-top: 240px; 
-    text-align: right;
+  font: black;
+  font-size: 2rem;
+  padding-top: 11px;
+  padding-right: 180px;
+  margin-top: 240px;
+  text-align: right;
 }
 
 .bio {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 122px;
-    margin-left: 152px;
-    padding-right: 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 122px;
+  margin-left: 152px;
+  padding-right: 170px;
 }
 
-.bio div:nth-child(odd){
-    margin-top: 25px;
+.bio div:nth-child(odd) {
+  margin-top: 25px;
 }
 
-.bio div:nth-child(even){
-    padding: 35px;
-    line-height: 1.5;
-    font-size: 60px;
-    text-align: center;
-    font-weight: 900;
-    color: grey;
+.bio div:nth-child(even) {
+  padding: 35px;
+  line-height: 1.5;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 900;
+  color: grey;
 }
 
 .resumeButton {
-    background-color:yellow;
-	-moz-border-radius:28px;
-	-webkit-border-radius:28px;
-	border-radius:28px;
-	border:1px solid yellow;
-	display:inline-block;
-	cursor:pointer;
-	color:black;
-	font-family:Arial;
-	font-weight:bold;
-    text-decoration:none;
-    padding: 10px;
-    margin-left: 1320px;
-    border: none;
-    font-size: 1.5rem;
+  background-color: yellow;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: 1px solid yellow;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 1320px;
+  border: none;
+  font-size: 1.5rem;
 }
 
 .resumeButton:hover {
-    background-color:white;
-    border:3px solid yellow;
+  background-color: white;
+  border: 3px solid yellow;
 }
 
 /* PROJECTS SECTION */
 #myprojects {
-    height: 100vh;
-    background-color: black;
+  height: 100vh;
+  background-color: black;
 }
 
+.fifth-image {
+  position: absolute;
+  background-color: yellow;
+  top: 2098px;
+  left: 730px;
+  height: 57px;
+  width: 1200px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.fifth-image h1 {
+  font: black;
+  font-size: 2rem;
+  padding-top: 11px;
+  padding-right: 162px;
+  text-align: left;
+}
 
 /* FOOTER/CONTACT SECTION */
- #contacts {
-     height: 50vh;
- }
+#contacts {
+  height: 50vh;
+}
 
- .fourth-shape {
-    position: absolute;
-    background-color: yellow; 
-    top: 3070px;
-    height: 57px; 
-    width: 1200px;
-    margin-right: 743px; 
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
- }
+.fourth-shape {
+  position: absolute;
+  background-color: yellow;
+  top: 3070px;
+  height: 57px;
+  width: 1200px;
+  margin-right: 743px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
 
 .fourth-shape h1 {
-    font: black;
-    font-size: 2rem;
-    padding-top: 11px;
-    padding-right: 156px;
-    margin-right: 17px;
-    text-align: right;
+  font: black;
+  font-size: 2rem;
+  padding-top: 11px;
+  padding-right: 156px;
+  margin-right: 17px;
+  text-align: right;
 }
 
 .email {
-    text-align: center;
-    margin-top: 300px;
+  text-align: center;
+  margin-top: 300px;
 }
 
 .email h1 {
-    font-weight: 700;
-    font-size: 25px;
-    color: #676262;
-    text-shadow: 1px black;
+  font-weight: 700;
+  font-size: 25px;
+  color: #676262;
+  text-shadow: 1px black;
 }
 
 .links {
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
 }
 
 .links a {
-    padding: 30px;
-    font-size: 40px;
-    color: black;
+  padding: 30px;
+  font-size: 40px;
+  color: black;
 }
 
 .contact p {
-    text-align: center;
-    margin-top: 200px;
-    color: #676262;
-    font-weight: 200;
-    font-size: 1.2rem;
+  text-align: center;
+  margin-top: 200px;
+  color: #676262;
+  font-weight: 200;
+  font-size: 1.2rem;
 }
-
-
-
-
-
-
-
-
-
-
