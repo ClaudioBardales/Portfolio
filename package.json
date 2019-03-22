@@ -19,7 +19,5 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.7.2"
   },
-  "dependencies": {
-    "swiper": "^4.5.0"
-  }
+  "dependencies": {}
 }
