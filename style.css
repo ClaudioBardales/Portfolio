@@ -61,7 +61,7 @@ li a {
   position: absolute;
   top: 630px;
   background-color: yellow;
-  height: 50px;
+  height: 40px;
   width: 250px;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
@@ -69,9 +69,9 @@ li a {
 
 #second-shape {
   position: absolute;
-  bottom: 12px;
+  bottom: 20px;
   background-color: yellow;
-  height: 50px;
+  height: 40px;
   width: 500px;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
@@ -86,7 +86,7 @@ li a {
 .title {
   margin-top: 50px;
   background-color: yellow;
-  height: 57px;
+  height: 40px;
   width: 778px;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
@@ -94,8 +94,8 @@ li a {
 
 .title h1 {
   font: black;
-  font-size: 2rem;
-  padding-top: 11px;
+  font-size: 25px;
+  padding-top: 5px;
   padding-right: 200px;
   text-align: right;
 }
@@ -104,7 +104,7 @@ li a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 130px 25px 0 25px;
+  margin: 40px 25px 0 48px;
 }
 
 .bio div:nth-child(odd) {
@@ -112,7 +112,7 @@ li a {
 } 
 
 .bio div:nth-child(even) {
-  padding: 20px;
+  padding: 10px 10px;
   line-height: 1.5;
   font-size: 35px;
   text-align: center;
@@ -135,7 +135,8 @@ li a {
   font-weight: bold;
   text-decoration: none;
   padding: 10px;
-  margin-left: 1320px;
+  margin-left: 700px;
+  margin-bottom: 50px;
   border: none;
   font-size: 20px;
 }
@@ -203,18 +204,18 @@ li a {
 .fifth-image {
   position: absolute;
   background-color: yellow;
-  top: 2098px;
-  left: 730px;
-  height: 57px;
-  width: 1200px;
+  top: 1101px;
+  left: 283px;
+  height: 40px;
+  width: 742px;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
 }
 
 .fifth-image h1 {
   font: black;
-  font-size: 2rem;
-  padding-top: 11px;
+  font-size: 25px;
+  padding-top: 5px;
   padding-right: 162px;
   padding-left: 150px;
   text-align: left;
