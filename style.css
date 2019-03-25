@@ -59,7 +59,7 @@ li a {
 
 #first-shape {
   position: absolute;
-  top: 630px;
+  top: 720px;
   background-color: yellow;
   height: 40px;
   width: 250px;
@@ -158,25 +158,25 @@ li a {
 }
 
 .card {
-  margin-top: 125px;
+  margin-top: 80px;
+  margin-left: 13px;
 }
 
 .card p {
   color: white;
-  font-size: 100%;
+  font-size: 12px;
   margin-left: 13px;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .box-img {
-  height: 400px;
-  width: 575px;
-  padding: 15px;
-  border-radius: 20px;
+  height: 200px;
+  width: 309px;
+  margin: 5px;
+  border: 3px yellow solid;
 }
 
 .website-btn {
-  margin-left: 100px;
   background-color: #000000;
   -moz-border-radius: 28px;
   -webkit-border-radius: 28px;
@@ -185,18 +185,19 @@ li a {
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: bold;
-  padding: 16px 50px;
+  padding: 10px 25px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #050505;
 }
 
 .github-btn {
-  padding-left: 35px;
+  position: absolute;
+  margin-left: 25px;
   text-decoration: none;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 2rem;
+  font-size: 22px;
   color: white;
   letter-spacing: 0.5px;
 }
@@ -204,7 +205,7 @@ li a {
 .fifth-image {
   position: absolute;
   background-color: yellow;
-  top: 1101px;
+  top: 1166px;
   left: 283px;
   height: 40px;
   width: 742px;
@@ -223,15 +224,15 @@ li a {
 
 /* FOOTER/CONTACT SECTION */
 #contacts {
-  height: 50vh;
+  height: 20vh;
 }
 
 .fourth-shape {
   position: absolute;
   background-color: yellow;
-  top: 3070px;
-  height: 57px;
-  width: 1200px;
+  top: 2000px;
+  height: 40px;
+  width: 742px;
   margin-right: 743px;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
@@ -239,8 +240,8 @@ li a {
 
 .fourth-shape h1 {
   font: black;
-  font-size: 2rem;
-  padding-top: 11px;
+  font-size: 25px;
+  padding-top: 3px;
   padding-right: 156px;
   margin-right: 17px;
   text-align: right;
@@ -248,12 +249,12 @@ li a {
 
 .email {
   text-align: center;
-  margin-top: 300px;
+  margin-top: 60px;
 }
 
 .email h1 {
   font-weight: 700;
-  font-size: 25px;
+  font-size: 20px;
   color: #676262;
   text-shadow: 1px black;
 }
@@ -261,7 +262,6 @@ li a {
 .links {
   display: flex;
   justify-content: center;
-  margin-top: 70px;
 }
 
 .links a {
@@ -272,7 +272,7 @@ li a {
 
 .contact p {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 28px;
   color: #676262;
   font-weight: 200;
   font-size: 1.2rem;
