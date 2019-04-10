@@ -15,7 +15,7 @@ body {
 /* NAVBAR & INTRODUCTION */
 
 .first-section {
-  height: 95vh;
+  height: 100vh;
   background-color: black;
 }
 
@@ -276,5 +276,38 @@ li a {
   color: #676262;
   font-weight: 200;
   font-size: 1.2rem;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 425px){
+  #first-shape,
+  #second-shape,
+  .title {
+    display: none;
+  }
+
+  nav ul li {
+    padding: 16px;
+    margin-top: 20px;
+  }
+
+  .first-section {
+    height: 100vh;
+    width: 120vw;
+  }
+
+  .introduction {
+    text-align: center;
+  }
+
+  .introduction h1 {
+    margin-left: 0;
+    font-size: 70px;
+  }
+
+  .introduction p {
+    margin-left: 0;
+  }
 }
 
