@@ -280,9 +280,11 @@ li a {
 
 /* MOBILE */
 
-@media screen and (max-width: 425px){
+@media (min-width: 320px){
   #first-shape,
   #second-shape,
+  .fourth-shape,
+  .fifth-image,
   .title {
     display: none;
   }
@@ -290,6 +292,11 @@ li a {
   nav ul li {
     padding: 16px;
     margin-top: 20px;
+  }
+
+  li a {
+    font-size: 13px;
+    padding: 15px 25px;
   }
 
   .first-section {
@@ -309,5 +316,74 @@ li a {
   .introduction p {
     margin-left: 0;
   }
+
+  .bio {
+    display: block;
+  }
+
+  .bio div:nth-child(odd) {
+    font-size: 16px;
+  } 
+  
+  .bio div:nth-child(even) {
+    font-size: 30px;
+  }
+  .resumeButton {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 85px;
+  }
+
+  #myprojects {
+    height: 200vh;
+    width: 120vw;
+    background-color: black;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .card {
+    margin: 0;
+  }
+
+  .card p {
+    font-size: 11px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+  }
+
+  .box-img {
+    width: 70%;
+    margin: 30px 5px 15px 54px;
+  }
+
+  .website-btn {
+    margin-left: 70px;
+  }
+
+  .email h1 {
+    margin-left: 50px;
+    font-size: 16px;
+  }
+
+  .links {
+    margin-left: 45px;
+  }
+
+  .links a{
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  .contact p {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  
 }
 
