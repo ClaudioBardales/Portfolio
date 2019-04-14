@@ -280,7 +280,7 @@ li a {
 
 /* MOBILE */
 
-@media (max-width: 320px){
+@media only screen and (max-width: 320px) and (max-width: 375px), (max-width: 425px){
   #first-shape,
   #second-shape,
   .fourth-shape,
@@ -319,6 +319,7 @@ li a {
 
   .bio {
     display: block;
+    margin-left: 80px;
   }
 
   .bio div:nth-child(odd) {
@@ -327,6 +328,8 @@ li a {
   
   .bio div:nth-child(even) {
     font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .resumeButton {
     font-size: 15px;
@@ -350,14 +353,16 @@ li a {
   }
 
   .card p {
-    font-size: 11px;
-    margin-left: 25px;
-    margin-bottom: 35px;
+    font-size: 16px;
+    margin-left: 8%;
+    margin-right: 9%;
+    margin-bottom: 25px;
   }
 
   .box-img {
     width: 70%;
-    margin: 30px 5px 15px 54px;
+    /* margin: 30px 5px 15px 60px; */
+    margin: 14%;
   }
 
   .website-btn {
@@ -385,7 +390,7 @@ li a {
   }
 }
 
-@media (max-width: 375px){
+/* @media (max-width: 375px){
   #first-shape,
   #second-shape,
   .fourth-shape,
@@ -455,14 +460,14 @@ li a {
   }
 
   .card p {
-    font-size: 11px;
+    font-size: 16px;
     margin-left: 25px;
     margin-bottom: 35px;
   }
 
   .box-img {
     width: 70%;
-    margin: 30px 5px 15px 54px;
+    margin: 30px 0 15px 75px;
   }
 
   .website-btn {
@@ -528,6 +533,7 @@ li a {
 
   .bio {
     display: block;
+    margin-left: 63px;
   }
 
   .bio div:nth-child(odd) {
@@ -559,14 +565,14 @@ li a {
   }
 
   .card p {
-    font-size: 11px;
+    font-size: 16px;
     margin-left: 25px;
     margin-bottom: 35px;
   }
 
   .box-img {
     width: 70%;
-    margin: 30px 5px 15px 54px;
+    margin: 30px 5px 15px 75px;
   }
 
   .website-btn {
@@ -592,111 +598,6 @@ li a {
     margin-top: 10px;
     margin-left: 50px;
   }
- }
+ } */
 
- @media (max-width: 768px){
-  #first-shape,
-  #second-shape,
-  .fourth-shape,
-  .fifth-image,
-  .title {
-    display: none;
-  }
-
-  nav ul li {
-    padding: 16px;
-    margin-top: 20px;
-  }
-
-  li a {
-    font-size: 13px;
-    padding: 15px 25px;
-  }
-
-  .first-section {
-    height: 100vh;
-    width: 120vw;
-  }
-
-  .introduction {
-    text-align: center;
-  }
-
-  .introduction h1 {
-    margin-left: 0;
-    font-size: 70px;
-  }
-
-  .introduction p {
-    margin-left: 0;
-  }
-
-  .bio {
-    display: block;
-  }
-
-  .bio div:nth-child(odd) {
-    font-size: 16px;
-  } 
-  
-  .bio div:nth-child(even) {
-    font-size: 30px;
-  }
-  .resumeButton {
-    font-size: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 85px;
-  }
-
-  #myprojects {
-    height: 200vh;
-    width: 120vw;
-    background-color: black;
-  }
-
-  .container {
-    display: block;
-  }
-
-  .card {
-    margin: 0;
-  }
-
-  .card p {
-    font-size: 11px;
-    margin-left: 25px;
-    margin-bottom: 35px;
-  }
-
-  .box-img {
-    width: 70%;
-    margin: 30px 5px 15px 54px;
-  }
-
-  .website-btn {
-    margin-left: 70px;
-  }
-
-  .email h1 {
-    margin-left: 50px;
-    font-size: 16px;
-  }
-
-  .links {
-    margin-left: 45px;
-  }
-
-  .links a{
-    padding: 10px;
-    font-size: 25px;
-  }
-
-  .contact p {
-    font-size: 13px;
-    margin-top: 10px;
-    margin-left: 50px;
-  }
- }
-
-
+ 
