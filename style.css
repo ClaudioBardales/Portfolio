@@ -407,7 +407,7 @@ li a {
   }
 
   #myprojects {
-    height: 235vh;
+    height: 240vh;
     width: 158vw;
     background-color: black;
   }
@@ -429,7 +429,6 @@ li a {
 
   .box-img {
     width: 70%;
-    /* margin: 30px 5px 15px 60px; */
     margin: 10%;
   }
 
