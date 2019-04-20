@@ -307,6 +307,7 @@ li a {
 
   .resumeButton {
     margin-top: 20px;
+    margin-left: 800px;
   }
 
   #myprojects {
@@ -314,8 +315,9 @@ li a {
   }
 
   .fifth-image {
-    top: 1247px;
+    top: 1230px;
     left: 350px;
+    width: 864px;
   }
 
   .card p {
@@ -323,7 +325,7 @@ li a {
   }
 
   .fourth-shape {
-    top: 2080px;
+    top: 2063px;
   }
 
   #contacts {
@@ -337,12 +339,14 @@ li a {
   .email h1,
   .links,
   .contact p {
-    margin-left: 75px;
+    margin-left: 0;
   }
+
+}
 
 /* MOBILE */
 
-@media only screen and (max-width: 320px) and (max-width: 375px), (max-width: 425px){
+@media (max-width: 320px) and (max-width: 375px), (max-width: 425px){
   #first-shape,
   #second-shape,
   .fourth-shape,
@@ -399,7 +403,7 @@ li a {
     font-size: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 85px;
+    margin-left: 175px;
   }
 
   #myprojects {
@@ -463,7 +467,6 @@ li a {
 
 
 
-}
 
 
 
