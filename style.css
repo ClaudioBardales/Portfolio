@@ -281,7 +281,7 @@ li a {
 
 /* TABLET */
 
-@media (max-width:768px) {
+@media (min-width:768px) {
   .first-section {
     width: 158vw;
   }
@@ -407,7 +407,7 @@ li a {
   }
 
   #myprojects {
-    height: 200vh;
+    height: 235vh;
     width: 158vw;
     background-color: black;
   }
