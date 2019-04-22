@@ -60,7 +60,7 @@ li a {
 
 #first-shape {
   position: absolute;
-  top: 720px;
+  top: 620px;
   background-color: yellow;
   height: 40px;
   width: 250px;
@@ -70,7 +70,7 @@ li a {
 
 #second-shape {
   position: absolute;
-  bottom: 20px;
+  bottom: 140px;
   background-color: yellow;
   height: 40px;
   width: 500px;
@@ -109,7 +109,7 @@ li a {
 }
 
 .bio div:nth-child(odd) {
-  font-size: 11px;
+  font-size: 16px;
 } 
 
 .bio div:nth-child(even) {
@@ -206,7 +206,7 @@ li a {
 .fifth-image {
   position: absolute;
   background-color: yellow;
-  top: 1229px;
+  top: 1112px;
   left: 335px;
   height: 40px;
   width: 742px;
@@ -231,7 +231,7 @@ li a {
 .fourth-shape {
   position: absolute;
   background-color: yellow;
-  top: 2065px;
+  top: 1850px;
   height: 40px;
   width: 742px;
   margin-right: 743px;
