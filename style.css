@@ -281,7 +281,7 @@ li a {
 
 /* TABLET */
 
-@media (max-width:768px) {
+@media only screen and (max-width:768px) {
   .first-section {
     width: 158vw;
   }
