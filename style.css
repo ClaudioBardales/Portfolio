@@ -282,7 +282,7 @@ li a {
   font-size: 1.2rem;
 }
 
-/* TABLET */
+/* TABLET
 
 @media only screen and (max-width:768px) {
   .first-section {
@@ -349,7 +349,7 @@ li a {
 
 /* MOBILE */
 
-@media (max-width: 320px) and (max-width: 375px), (max-width: 425px){
+/* @media (max-width: 320px) and (max-width: 375px), (max-width: 425px){
   #first-shape,
   #second-shape,
   .fourth-shape,
@@ -472,4 +472,4 @@ li a {
 
 
 
-
+ */
