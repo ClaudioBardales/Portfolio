@@ -336,9 +336,20 @@ li a {
   .fourth-shape {
     width: 1000px;
   }
-
-
 }
+@media only screen and (max-width: 1366px){
+  .introduction p {
+    margin-right: 500px;
+  }
+  .first-section {
+    height: 100vh;
+    width: auto;
+  }
+  .resumeButton {
+    margin-left: 900px;
+  }
+}
+
 
 /* TABLET
 
