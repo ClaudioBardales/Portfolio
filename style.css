@@ -281,6 +281,8 @@ li a {
   font-size: 1.2rem;
 }
 
+/* 1600px Devices */
+
 @media only screen and (max-width: 1600px) {
   .first-section {
     height: 100vh;
@@ -317,6 +319,24 @@ li a {
     top: 2110px;
     width: 1100px;
   }
+
+}
+
+@media only screen and (max-width: 1440px){
+  .first-section {
+    height: 100vh;
+    width: auto;
+  }
+  .title {
+    width: 980px;
+  }
+  .fifth-image {
+    left: 540px;
+  }
+  .fourth-shape {
+    width: 1000px;
+  }
+
 
 }
 
