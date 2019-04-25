@@ -349,6 +349,15 @@ li a {
     margin-left: 900px;
   }
 }
+@media only screen and (max-width: 1280px){
+  .first-section {
+    height: 100vh;
+    width: auto;
+  }
+  .introduction p {
+    margin-right: 400px;
+  }
+}
 
 
 /* TABLET
