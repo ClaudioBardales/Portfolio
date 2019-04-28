@@ -112,8 +112,8 @@ li a {
 
 .bio div:nth-child(odd) {
   font-size: 16px;
-  height: auto;
-  width: 35%;
+  /* height: auto;
+  width: 35%; */
 }
 
 .bio div:nth-child(even) {
@@ -377,9 +377,6 @@ li a {
   .introduction p {
     margin-right: 10px;
   }
-  .bio {
-    margin: 70px;
-  }
   .resumeButton {
     margin-left: 700px;
   }
@@ -459,7 +456,7 @@ li a {
 
   li a {
     font-size: 13px;
-    padding: 15px 25px;
+    padding: 10px 19px;
   }
 
   .first-section {
@@ -473,33 +470,30 @@ li a {
 
   .introduction h1 {
     margin-left: 0;
-    font-size: 70px;
+    font-size: 55px;
   }
 
   .introduction p {
     margin-left: 0;
   }
 
+  .aboutme {
+    height: 70vh;
+    width: auto;
+  }
   .bio {
     display: block;
   }
-
-  .bio div:nth-child(odd) {
-    font-size: 16px;
-  } 
-  
-  .bio div:nth-child(even) {
-    font-size: 30px;
+  .bio div:nth-child(odd){
+    font-size: 14px;
   }
   .resumeButton {
     font-size: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 175px;
+    margin: 0 0 50px 75px;
   }
 
   #myprojects {
-    height: 100vh;
+    height: 110vh;
     width: auto;
     background-color: black;
   }
@@ -513,18 +507,17 @@ li a {
   }
 
   .card p {
-    font-size: 16px;
-    margin-left: 8%;
-    margin-right: 9%;
-    margin-bottom: 25px;
+    font-size: 12px;
+    margin: 0 0 20px 15px;
   }
 
   .box-img {
-    width: 70%;
-    margin: 10%;
+    height: 115px;
+    width: auto;
+    margin: 30px 0 0 60px;
   }
-
   .website-btn {
+    padding: 6px 15px;
     margin-left: 70px;
   }
 
