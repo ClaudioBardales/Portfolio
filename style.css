@@ -478,7 +478,7 @@ li a {
   }
 
   .aboutme {
-    height: 70vh;
+    height: 90vh;
     width: auto;
   }
   .bio {
@@ -487,13 +487,16 @@ li a {
   .bio div:nth-child(odd){
     font-size: 14px;
   }
+  .bio div:nth-child(even){
+    font-size: 25px;
+  }
   .resumeButton {
     font-size: 15px;
     margin: 0 0 50px 75px;
   }
 
   #myprojects {
-    height: 110vh;
+    height: 130vh;
     width: auto;
     background-color: black;
   }
