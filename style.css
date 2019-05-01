@@ -26,25 +26,29 @@ nav ul {
 }
 
 nav ul li {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 li a {
   text-decoration: none;
-  background-color: yellow;
-  color: black;
+  color: yellow;
   border-radius: 28px;
   cursor: pointer;
   font-family: Arial;
   font-size: 16px;
-  padding: 15px 45px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+li a:hover {
+  color: #d3d3d3;
+  opacity: 1;
 }
 
 .introduction {
   color: #d3d3d3;
   margin-top: 150px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -59,26 +63,6 @@ li a {
   letter-spacing: 1.5px;
 }
 
-#first-shape {
-  position: absolute;
-  top: 835px;
-  background-color: yellow;
-  height: 40px;
-  width: 250px;
-  border-top-right-radius: 100px;
-  border-bottom-right-radius: 100px;
-}
-
-#second-shape {
-  position: absolute;
-  top: 900px;
-  background-color: yellow;
-  height: 40px;
-  width: 500px;
-  border-top-right-radius: 100px;
-  border-bottom-right-radius: 100px;
-}
-
 /* ABOUT ME */
 
 .aboutme {
@@ -87,21 +71,13 @@ li a {
   width: auto;
 }
 
-.title {
-  margin-top: 50px;
-  background-color: yellow;
-  height: 40px;
-  width: 1125px;
-  border-top-right-radius: 100px;
-  border-bottom-right-radius: 100px;
-}
-
-.title h2 {
-  font: black;
-  font-size: 25px;
-  padding-top: 5px;
-  padding-right: 200px;
-  text-align: right;
+.aboutme h2 {
+  color: #676262;
+  text-shadow: #000000;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
 }
 
 .bio {
@@ -128,9 +104,13 @@ li a {
   padding-left: 10px;
   padding-right: 10px;
 }
-.bio div:nth-child(3){
+.bio div:nth-child(3) {
   flex-basis: 700px;
   line-height: 1.5;
+}
+
+.resumeLink{
+  color: black;
 }
 
 /* PROJECTS SECTION */
@@ -138,6 +118,14 @@ li a {
   height: 100vh;
   width: auto;
   background-color: black;
+}
+
+#myprojects h2 {
+  color: #d3d3d3;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2rem;
+  padding-top: 30px;
 }
 
 .container {
@@ -177,8 +165,6 @@ li a {
 }
 
 .github-btn {
-  position: absolute;
-  margin-left: 25px;
   text-decoration: none;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 22px;
@@ -186,50 +172,10 @@ li a {
   letter-spacing: 0.5px;
 }
 
-.fifth-image {
-  position: absolute;
-  background-color: yellow;
-  top: 1481px;
-  left: 700px;
-  height: 40px;
-  width: 1221px;
-  border-top-left-radius: 100px;
-  border-bottom-left-radius: 100px;
-}
-
-.fifth-image h2 {
-  font: black;
-  font-size: 25px;
-  padding-top: 5px;
-  padding-right: 162px;
-  padding-left: 150px;
-  text-align: left;
-}
-
 /* FOOTER/CONTACT SECTION */
 #contacts {
   height: 20vh;
   width: auto;
-}
-
-.fourth-shape {
-  position: absolute;
-  background-color: yellow;
-  top: 2450px;
-  height: 40px;
-  width: 1221px;
-  margin-right: 743px;
-  border-top-right-radius: 100px;
-  border-bottom-right-radius: 100px;
-}
-
-.fourth-shape h2 {
-  font: black;
-  font-size: 25px;
-  padding-top: 6px;
-  padding-right: 170px;
-  margin-right: 17px;
-  text-align: right;
 }
 
 .email {
@@ -270,38 +216,19 @@ li a {
     width: auto;
   }
 
-  .introduction h2 {
-    font-size: 75px;
-    margin-left: 150px;
+  .introduction h1 {
+    font-size: 60px;
   }
   .introduction p {
-    font-size: 30px;
-    margin-right: 750px;
+    font-size: 40px;
   }
-
-  #first-shape {
-    top: 700px;
+  .bio div:nth-child(1),
+  .bio div:nth-child(3) {
+    flex: 0 1 500px;
   }
-
-  #second-shape {
-    top: 770px;
-  }
-
-  .bio {
-    margin-bottom: 0;
-  }
-  .fifth-image {
-    top: 1270px;
-  }
-  
-  .fourth-shape {
-    top: 2110px;
-    width: 1100px;
-  }
-
 }
 
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 1440px) {
   .first-section {
     height: 100vh;
     width: auto;
@@ -316,10 +243,7 @@ li a {
     width: 1000px;
   }
 }
-@media only screen and (max-width: 1366px){
-  .introduction p {
-    margin-right: 500px;
-  }
+@media only screen and (max-width: 1366px) {
   .first-section {
     height: 100vh;
     width: auto;
@@ -328,68 +252,57 @@ li a {
     margin-left: 900px;
   }
 }
-@media only screen and (max-width: 1280px){
+@media only screen and (max-width: 1280px) {
   .first-section {
     height: 100vh;
     width: auto;
   }
-  .introduction p {
-    margin-right: 400px;
+  .bio div:nth-child(1),
+  .bio div:nth-child(3) {
+    flex: 0 1 390px;
   }
 }
-@media only screen and (max-width: 1024px){
-  #first-shape,
-  #second-shape,
-  .fourth-shape,
-  .fifth-image,
-  .title {
-    display: none;
-  }
+@media only screen and (max-width: 1024px) {
   .first-section {
     height: 100vh;
     width: auto;
   }
-  .introduction h2{
-    font-size: 70px;
-    margin-left: 250px;
+
+  .bio div:nth-child(1),
+  .bio div:nth-child(3) {
+    flex: 0 1 300px;
   }
-  .introduction p {
-    margin-right: 10px;
-  }
-  .resumeButton {
-    margin-left: 700px;
-  }
-  .card {
-    margin: 200px 0 200px 0;
-  }
+
   .box-img {
     height: auto;
-    width: 95%
+    width: 95%;
   }
   .website-btn {
     margin-left: 20px;
   }
 }
 
+/* TABLET */
 
- /* TABLET */
-
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   .first-section {
     height: 100vh;
     width: auto;
   }
   .introduction h2 {
     font-size: 50px;
-    margin-left: 180px; 
   }
-  .bio {
-    margin: 30px;
+
+  .bio div:nth-child(1),
+  .bio div:nth-child(3) {
+    font-size: 12px;
+    flex: 0 1 200px;
   }
-  .resumeButton {
-    margin-left: 530px;
-    font-size: 16px;
+
+  .bio div:nth-child(2) {
+    font-size: 1.5rem;
   }
+
   .card {
     margin: 100px 0 0 0;
     width: 85%;
@@ -412,22 +325,15 @@ li a {
   .contact p {
     font-size: 16px;
   }
-
 }
 
-  
 /* MOBILE */
 
- @media (max-width: 320px) and (max-width: 375px), (max-width: 425px){
-  #first-shape,
-  #second-shape,
-  .fourth-shape,
-  .fifth-image,
-  .title {
-    display: none;
+@media (max-width: 320px) and (max-width: 375px), (max-width: 425px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
   }
-
-
   nav ul li {
     margin-top: 20px;
     padding: 15px;
@@ -460,18 +366,14 @@ li a {
     height: 90vh;
     width: auto;
   }
+
   .bio {
-    display: block;
+    flex-direction: column;
   }
-  .bio div:nth-child(odd){
+  .bio div:nth-child(1),
+  .bio div:nth-child(3) {
     font-size: 14px;
-  }
-  .bio div:nth-child(even){
-    font-size: 25px;
-  }
-  .resumeButton {
-    font-size: 15px;
-    margin: 0 0 50px 75px;
+    flex-basis: 300px;
   }
 
   #myprojects {
@@ -481,7 +383,10 @@ li a {
   }
 
   .container {
-    display: block;
+    height: 130vh;
+    width: auto;
+    flex-direction: column;
+    align-content: center;
   }
 
   .card {
@@ -490,19 +395,13 @@ li a {
 
   .card p {
     font-size: 12px;
-    margin: 0 0 20px 15px;
   }
 
   .box-img {
     height: 115px;
     width: auto;
-    margin: 30px 0 0 60px;
+    align-content: center;
   }
-  .website-btn {
-    padding: 6px 15px;
-    margin-left: 70px;
-  }
-
   .email h2 {
     margin-left: 50px;
     font-size: 16px;
@@ -512,13 +411,13 @@ li a {
     margin-left: 0;
   }
 
-  .links a{
+  .links a {
     padding: 10px;
     font-size: 25px;
     margin-left: 0;
   }
 
-  .email h2{
+  .email h2 {
     margin-left: 0;
   }
 
@@ -528,4 +427,3 @@ li a {
     margin-left: 0;
   }
 }
-
