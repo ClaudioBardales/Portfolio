@@ -363,17 +363,31 @@ li a:hover {
   }
 
   .aboutme {
-    height: 90vh;
+    height: 100vh;
     width: auto;
+  }
+
+  .aboutme h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .bio {
     flex-direction: column;
+    margin-top: 100px;
   }
   .bio div:nth-child(1),
   .bio div:nth-child(3) {
-    font-size: 14px;
+    font-size: 16px;
     flex-basis: 300px;
+  }
+
+  .bio div:nth-child(1){
+    margin: 80px 20px 20px;
+  }
+
+  .bio div:nth-child(3){
+    margin: 20px;
   }
 
   #myprojects {
