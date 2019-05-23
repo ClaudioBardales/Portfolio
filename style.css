@@ -66,6 +66,13 @@ li a:hover {
     letter-spacing: 1.5px;
 }
 
+.img {
+    height: 30%;
+    width: auto;
+    float: right;
+    margin-top: 238px;
+}
+
 
 /* ABOUT ME */
 
@@ -321,8 +328,8 @@ li a:hover {
     }
     .bio div:nth-child(1),
     .bio div:nth-child(3) {
-        font-size: 12px;
-        flex: 0 1 200px;
+        font-size: 13px;
+        flex: 0 1 235px;
     }
     .bio div:nth-child(2) {
         font-size: 1.5rem;
@@ -371,11 +378,15 @@ li a:hover {
     .introduction {
         text-align: center;
     }
+    .introduction h1 {
+        font-size: 50px;
+    }
     .introduction h2 {
         margin-left: 0;
         font-size: 55px;
     }
     .introduction p {
+        font-size: 25px;
         margin-left: 0;
     }
     .aboutme {
@@ -388,7 +399,7 @@ li a:hover {
     }
     .bio {
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 125px;
     }
     .bio div:nth-child(1),
     .bio div:nth-child(3) {
