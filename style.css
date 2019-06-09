@@ -12,6 +12,11 @@ body {
     scroll-behavior: smooth;
 }
 
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 
 /* NAVBAR & INTRODUCTION */
 
@@ -82,7 +87,6 @@ li a:hover {
 
 .aboutme {
     background-color: white;
-    height: 50vh;
     width: auto;
 }
 
@@ -96,32 +100,26 @@ li a:hover {
 }
 
 .bio {
-    height: 50vh;
     width: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
-.bio div:nth-child(1) {
-    font-size: 16px;
-    flex-basis: 700px;
-    line-height: 1.5;
-}
-
-.bio div:nth-child(2) {
+.bio p:nth-child(2) {
     padding: 10px 10px;
     line-height: 1.5;
-    font-size: 35px;
     text-align: center;
     font-weight: 900;
+    font-size: 2rem;
     color: grey;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.bio div:nth-child(3) {
-    flex-basis: 700px;
+.bio p:nth-child(3) {
     line-height: 1.5;
 }
 
@@ -133,10 +131,10 @@ li a:hover {
 /* PROJECTS SECTION */
 
 #myprojects {
-    height: 100vh;
     width: auto;
     background-color: black;
     flex-wrap: wrap;
+    padding: 20px 0;
 }
 
 #myprojects h2 {
@@ -144,11 +142,9 @@ li a:hover {
     text-align: center;
     text-decoration: underline;
     font-size: 2rem;
-    padding-top: 30px;
 }
 
 .container {
-    height: 100vh;
     width: auto;
     display: flex;
     justify-content: center;
@@ -158,7 +154,6 @@ li a:hover {
 
 .card p {
     color: white;
-    font-size: 12px;
     margin-bottom: 25px;
 }
 
@@ -237,7 +232,6 @@ li a:hover {
     text-align: center;
     color: #676262;
     font-weight: 200;
-    font-size: 1.2rem;
 }
 
 
@@ -245,7 +239,6 @@ li a:hover {
 
 @media only screen and (max-width: 1600px) {
     .first-section {
-        height: 100vh;
         width: auto;
     }
     .introduction h1 {
@@ -254,15 +247,14 @@ li a:hover {
     .introduction p {
         font-size: 40px;
     }
-    .bio div:nth-child(1),
-    .bio div:nth-child(3) {
+    .bio p:nth-child(1),
+    .bio p:nth-child(3) {
         flex: 0 1 500px;
     }
 }
 
 @media only screen and (max-width: 1440px) {
     .first-section {
-        height: 100vh;
         width: auto;
     }
     .title {
@@ -278,7 +270,6 @@ li a:hover {
 
 @media only screen and (max-width: 1366px) {
     .first-section {
-        height: 100vh;
         width: auto;
     }
     .resumeButton {
@@ -288,26 +279,23 @@ li a:hover {
 
 @media only screen and (max-width: 1280px) {
     .first-section {
-        height: 100vh;
         width: auto;
     }
-    .bio div:nth-child(1),
-    .bio div:nth-child(3) {
+    .bio p:nth-child(1),
+    .bio p:nth-child(3) {
         flex: 0 1 390px;
     }
     #myprojects {
-        height: 108vh;
         width: auto;
     }
 }
 
 @media only screen and (max-width: 1024px) {
     .first-section {
-        height: 100vh;
         width: auto;
     }
-    .bio div:nth-child(1),
-    .bio div:nth-child(3) {
+    .bio p:nth-child(1),
+    .bio p:nth-child(3) {
         flex: 0 1 300px;
     }
     .box-img {
@@ -324,18 +312,16 @@ li a:hover {
 
 @media only screen and (max-width: 768px) {
     .first-section {
-        height: 100vh;
         width: auto;
     }
     .introduction h2 {
         font-size: 50px;
     }
-    .bio div:nth-child(1),
-    .bio div:nth-child(3) {
-        font-size: 13px;
+    .bio p:nth-child(1),
+    .bio p:nth-child(3) {
         flex: 0 1 235px;
     }
-    .bio div:nth-child(2) {
+    .bio p:nth-child(2) {
         font-size: 1.5rem;
     }
     .card {
@@ -376,7 +362,6 @@ li a:hover {
         padding: 10px 19px;
     }
     .first-section {
-        height: 100vh;
         width: auto;
     }
     .introduction {
@@ -394,7 +379,6 @@ li a:hover {
         margin-left: 0;
     }
     .aboutme {
-        height: 100vh;
         width: auto;
     }
     .aboutme h2 {
@@ -403,26 +387,13 @@ li a:hover {
     }
     .bio {
         flex-direction: column;
-        margin-top: 125px;
-    }
-    .bio div:nth-child(1),
-    .bio div:nth-child(3) {
-        font-size: 16px;
-        flex-basis: 300px;
-    }
-    .bio div:nth-child(1) {
-        margin: 80px 20px 20px;
-    }
-    .bio div:nth-child(3) {
-        margin: 20px;
+        padding: 0 20px;
     }
     #myprojects {
-        height: 130vh;
         width: auto;
         background-color: black;
     }
     .container {
-        height: 130vh;
         width: auto;
         flex-direction: column;
     }
