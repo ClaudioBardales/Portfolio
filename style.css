@@ -13,8 +13,8 @@ body {
 }
 
 p {
-  font-size: 16px;
-  line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 
@@ -74,19 +74,17 @@ li a:hover {
 }
 
 .responsive-image {
-  position: absolute;
-  right:0;
-  bottom: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
+
 .img {
-  height: 158px;
-  width: 500px;
-  background-image: url(/img/190405_Electronics-01.svg);
-  background-size: cover;
+    height: 158px;
+    width: 500px;
+    background-image: url(/img/190405_Electronics-01.svg);
+    background-size: cover;
 }
-
-
-
 
 
 /* ABOUT ME */
@@ -374,7 +372,7 @@ li a:hover {
         text-align: center;
     }
     .img {
-      display: none;
+        display: none;
     }
     .introduction h1 {
         font-size: 50px;
