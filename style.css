@@ -24,6 +24,8 @@ p {
     height: 100vh;
     width: auto;
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 nav ul {
@@ -72,15 +74,19 @@ li a:hover {
 }
 
 .responsive-image {
-    display: flex;
-    align-content: flex-start;
+  position: absolute;
+  right:0;
+  bottom: 0;
+}
+.img {
+  height: 158px;
+  width: 500px;
+  background-image: url(/img/190405_Electronics-01.svg);
+  background-size: cover;
 }
 
-.img {
-    max-width: 100%;
-    height: auto;
-    display: none;
-}
+
+
 
 
 /* ABOUT ME */
@@ -366,6 +372,9 @@ li a:hover {
     }
     .introduction {
         text-align: center;
+    }
+    .img {
+      display: none;
     }
     .introduction h1 {
         font-size: 50px;
