@@ -108,8 +108,11 @@ li a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
     padding: 20px;
+}
+
+.bio p:nth-child(1) {
+    flex-basis: 75%;
 }
 
 .bio p:nth-child(2) {
