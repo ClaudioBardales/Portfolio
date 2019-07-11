@@ -338,9 +338,9 @@ textarea {
         align-items: center;
     }
     .bio img {
-        width: 50%;
+        width: 45%;
         height: auto;
-        margin: 30px;
+        margin: 10px;
     }
     .card {
         width: 257px;
