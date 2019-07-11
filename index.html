@@ -30,18 +30,19 @@
             </div>
         </header>
         <section class="aboutme" id="about">
-            <h2>About Me!</h2>
             <div class="bio">
-                <p>
-                    I got into programming back in peru when i was 5 years old. I would mess around with the command prompt, and one time i accidentally deleted system32 when i was 11. Ever since then it has been my dream to become a developer, and my dreams came clear when
-                    the new first iphone got announced back when i was in my freshman year in high school. From that point i just wanted to create applications and websites for companies and see my work come to fruition.
-                </p>
-                <p>"Perserverance<br />is my greatest<br />strength"</p>
-                <p>
-                    I'm focused on Front-End technologies, but i am also intersted in back-end development, and machine learning. When im not programming I usually play basketball, play fighting games, and sing in japanese.
-                    <br /> Check out my resume
-                    <a class="resumeLink" href="img/ClaudioResume.pdf">here</a>.
-                </p>
+                <img height="300" width="300" src="img/me.jpg" alt="">
+                <div class="text-content">
+                    <p>
+                        I got into programming back in Peru when I was 5 years old. I would mess around with the command prompt, and one time I accidentally deleted system32 when I was 11. Ever since then it has been my dream to become a developer, and my dreams came clear when
+                        the new first iPhone got announced back when I was in my freshman year in high school. From that point, I just wanted to create applications and websites for companies and see my work come to fruition. I'm focused on Front-End
+                        technologies, but I am also interested in back-end development, and machine learning. When im not programming I usually play basketball, play fighting games, and sing in Japanese.
+                        <p>
+                            <br />Check out my resume
+                            <a class="resumeLink" href="img/ClaudioResume.pdf">here</a>.
+                        </p>
+                    </p>
+                </div>
             </div>
         </section>
         <section class="projects" id="myprojects">
@@ -64,8 +65,14 @@
                         <a href="https://github.com/ClaudioBardales/WeightConverter" target="_blank" class="github-btn">GitHub</a>
                     </div>
                 </div>
-
                 <!-- <div class="card">
+                    <img class="box-img" src="https://via.placeholder.com/500x300.png" />
+                    <div class='btn'>
+                        <a href="#" class="website-btn">Visit the Website</a>
+                        <a href="#" class="github-btn">GitHub</a>
+                    </div>
+                </div>
+                <div class="card">
                     <img class="box-img" src="https://via.placeholder.com/500x300.png" />
                     <div class='btn'>
                         <a href="#" class="website-btn">Visit the Website</a>
@@ -74,19 +81,27 @@
                 </div> -->
             </div>
         </section>
-        <footer class="contact" id="contacts">
-            <div class="email">
-                <h2>claudioeduardobardales@gmail.com</h2>
+        <section class="contact">
+            <h2>Have Any Questions?</h2>
+            <div class="forms">
+                <form action="https://formspree.io/claudioeduardobardales@gmail.com">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
             </div>
+        </section>
+        <footer id="contacts">
             <div class="links">
-                <a href="https://github.com/ClaudioBardales" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/claudiobardales/" target="_blank"><i
-                        class="fab fa-linkedin-in"></i></a>
-                <a href="https://twitter.com/chitocodes" target="_blank"><i class="fab fa-twitter"></i></a>
+                <div class="buttons">
+                    <a href="https://github.com/ClaudioBardales" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/claudiobardales/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/chitocodes" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p> Designed with ❤️ by Irina Mityugova&#169; 2019, licensed and Developed with 🐬 by Claudio Bardales.</p>
             </div>
-            <p>
-                Designed with ❤️ by Irina Mityugova&#169; 2019, licensed and Developed with 🐬 by Claudio Bardales.
-            </p>
         </footer>
     </main>
     <script src="index.js"></script>

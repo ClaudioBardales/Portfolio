@@ -32,6 +32,10 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
 }
 
 nav ul li {
@@ -40,7 +44,7 @@ nav ul li {
 
 li a {
     text-decoration: none;
-    color: yellow;
+    color: #FFB61E;
     border-radius: 28px;
     cursor: pointer;
     font-family: Arial;
@@ -91,43 +95,29 @@ li a:hover {
 
 .aboutme {
     background-color: white;
+    height: 100vh;
     width: auto;
-}
-
-.aboutme h2 {
-    color: #676262;
-    text-shadow: #000000;
-    margin-top: 30px;
-    text-align: center;
-    font-size: 2rem;
-    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .bio {
-    width: auto;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    margin: 50px;
+}
+
+.bio img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.text-content {
     padding: 20px;
-}
-
-.bio p:nth-child(1) {
-    flex-basis: 75%;
-}
-
-.bio p:nth-child(2) {
-    padding: 10px 10px;
-    line-height: 1.5;
-    text-align: center;
-    font-weight: 900;
-    font-size: 2rem;
-    color: grey;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.bio p:nth-child(3) {
-    line-height: 1.5;
 }
 
 .resumeLink {
@@ -168,7 +158,7 @@ li a:hover {
     max-width: 400px;
     height: auto;
     margin: 20px;
-    border: 3px yellow solid;
+    border: 3px #FFB61E solid;
 }
 
 .btn {
@@ -184,7 +174,7 @@ li a:hover {
     -moz-border-radius: 28px;
     -webkit-border-radius: 28px;
     border-radius: 28px;
-    border: 3px solid #ffde08;
+    border: 3px solid #FFB61E;
     cursor: pointer;
     color: #ffffff;
     font-family: Arial;
@@ -205,40 +195,79 @@ li a:hover {
 }
 
 
-/* FOOTER/CONTACT SECTION */
+/* CONTACT SECTION */
+
+.contact {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2 {
+    margin-bottom: 80px;
+    font-size: 2vw;
+}
+
+.forms form input[type=text],
+.forms form input[type=email],
+textarea {
+    min-width: 500px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    border: none;
+    background-color: lightgray;
+}
+
+textarea {
+    min-height: 250px;
+}
+
+.forms form button {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* FOOTER SECTION */
 
 #contacts {
     height: 20vh;
     width: auto;
-}
-
-.email {
-    text-align: center;
-    margin-top: 60px;
-}
-
-.email h2 {
-    font-weight: 700;
-    font-size: 20px;
-    color: #676262;
-    text-shadow: 1px black;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .links {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
 }
 
 .links a {
     padding: 30px;
     font-size: 40px;
-    color: black;
+    color: #FFB61E;
 }
 
-.contact p {
-    text-align: center;
-    color: #676262;
-    font-weight: 200;
+.links p {
+    font-size: 1vw;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -254,10 +283,6 @@ li a:hover {
     .introduction p {
         font-size: 40px;
     }
-    .bio p:nth-child(1),
-    .bio p:nth-child(3) {
-        flex: 0 1 500px;
-    }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -267,30 +292,17 @@ li a:hover {
     .title {
         width: 980px;
     }
-    .fifth-image {
-        left: 540px;
-    }
-    .fourth-shape {
-        width: 1000px;
-    }
 }
 
 @media only screen and (max-width: 1366px) {
     .first-section {
         width: auto;
     }
-    .resumeButton {
-        margin-left: 900px;
-    }
 }
 
 @media only screen and (max-width: 1280px) {
     .first-section {
         width: auto;
-    }
-    .bio p:nth-child(1),
-    .bio p:nth-child(3) {
-        flex: 0 1 390px;
     }
     #myprojects {
         width: auto;
@@ -300,10 +312,6 @@ li a:hover {
 @media only screen and (max-width: 1024px) {
     .first-section {
         width: auto;
-    }
-    .bio p:nth-child(1),
-    .bio p:nth-child(3) {
-        flex: 0 1 300px;
     }
     .box-img {
         height: auto;
@@ -324,12 +332,15 @@ li a:hover {
     .introduction h2 {
         font-size: 50px;
     }
-    .bio p:nth-child(1),
-    .bio p:nth-child(3) {
-        flex: 0 1 235px;
+    .bio {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
     }
-    .bio p:nth-child(2) {
-        font-size: 1.5rem;
+    .bio img {
+        width: 50%;
+        height: auto;
+        margin: 30px;
     }
     .card {
         width: 257px;
@@ -357,16 +368,16 @@ li a:hover {
 @media (max-width: 320px) and (max-width: 375px),
 (max-width: 425px) {
     nav ul {
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
     nav ul li {
         margin-top: 20px;
-        padding: 15px;
+        /* padding: 15px; */
     }
     li a {
         font-size: 13px;
-        padding: 10px 19px;
+        /* padding: 10px 19px; */
     }
     .first-section {
         width: auto;
@@ -388,16 +399,13 @@ li a:hover {
         font-size: 25px;
         margin-left: 0;
     }
-    .aboutme {
-        width: auto;
+    .contact h2 {
+        font-size: 3vw;
     }
-    .aboutme h2 {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .bio {
-        flex-direction: column;
-        padding: 0 20px;
+    .forms form input[type=text],
+    .forms form input[type=email],
+    textarea {
+        min-width: 250px;
     }
     #myprojects {
         width: auto;
