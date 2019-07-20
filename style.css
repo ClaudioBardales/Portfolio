@@ -82,6 +82,8 @@ nav li a:active {
 
 .introduction h1 {
     font-size: 50px;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
 .introduction p {
