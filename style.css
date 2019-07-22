@@ -29,43 +29,53 @@ p {
     justify-content: center;
 }
 
-nav {
+.navbar {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     z-index: 1;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    position: fixed;
+    position: sticky;
     top: 0;
+    padding: 0.5rem;
     width: 100%;
     background-color: #fff8f0;
 }
 
-nav ul li {
-    padding: 1rem;
+.navbar .icon {
+    display: none;
 }
 
-nav li a {
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li a,
+.navbar a {
     text-decoration: none;
     color: #000;
     cursor: pointer;
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+    padding: 7px;
 }
 
-nav li a:hover {
+.navbar a {
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.nav-links li a:hover,
+.navbar a:hover {
     color: #7f8a94;
 }
 
-nav li a:active {
+.nav-links li a:active,
+.navbar a:active {
     color: #7f8a94;
     opacity: 1;
 }
@@ -364,6 +374,17 @@ textarea {
     }
     .introduction h2 {
         font-size: 50px;
+    }
+    .navbar {
+        flex-direction: column;
+        position: none;
+    }
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links li {
+        padding: 10px;
     }
     .bio {
         margin: 0;
