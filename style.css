@@ -385,6 +385,7 @@ textarea {
     }
     .nav-links li {
         padding: 10px;
+        display: none;
     }
     .bio {
         margin: 0;
@@ -424,6 +425,7 @@ textarea {
     }
     li a {
         font-size: 13px;
+        display: none;
     }
     .first-section {
         width: auto;
