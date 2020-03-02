@@ -17,13 +17,15 @@
     <main>
         <header class="first-section" id="home">
             <nav class="navbar">
-                <a href="#home">Claudio Bardales</a>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#myprojects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+                <div class="navbar-container">
+                    <a href="#home">Claudio Bardales</a>
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#myprojects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
             </nav>
+            </div>
             <div class="introduction">
                 <h1>Claudio Bardales</h1>
                 <p>&#60;Web Developer &#47;&#62;</p>
@@ -46,38 +48,71 @@
         </section>
         <section class="projects" id="myprojects">
             <h2>My Projects</h2>
-            <div class="container">
-                <div class="card">
-                    <img class="box-img" src="img/sjparks.png" />
-                    <div class='btn'>
-                        <a href="https://sjparks.herokuapp.com/" target="_blank" class="website-btn">Visit the
-                            Website</a>
-                        <a href="https://github.com/Wolfy64/SJParks" target="_blank" class="github-btn">GitHub</a>
+            <div class="cards">
+                <div class="card-item">
+                    <div class="card-body">
+                        <img class="card-img" src="https://picsum.photos/250/200?image=480" alt="" />
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio,
+                            eveniet.
+                        </p>
+                        <div class="card-footer center">
+                            <a class="btn" href="">Website</a>
+                            <a class="btn" href="">github</a>
+                        </div>
                     </div>
                 </div>
-
-                <div class="card">
-                    <img class="box-img" src="img/weightconverter2.png" />
-                    <div class='btn'>
-                        <a href="https://gifted-kalam-6c053c.netlify.com/" target="_blank" class="website-btn">Visit the
-                            Website</a>
-                        <a href="https://github.com/ClaudioBardales/WeightConverter" target="_blank" class="github-btn">GitHub</a>
+                <div class="card-item">
+                    <div class="card-body">
+                        <img class="card-img" src="https://picsum.photos/250/200?image=481" alt="" />
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eveniet.
+                        </p>
+                        <div class="card-footer center">
+                            <a class="btn" href="">Website</a>
+                            <a class="btn" href="">github</a>
+                        </div>
                     </div>
                 </div>
-                <!-- <div class="card">
-                    <img class="box-img" src="https://via.placeholder.com/500x300.png" />
-                    <div class='btn'>
-                        <a href="#" class="website-btn">Visit the Website</a>
-                        <a href="#" class="github-btn">GitHub</a>
+                <div class="card-item">
+                    <div class="card-body">
+                        <img class="card-img" src="https://picsum.photos/250/200?image=482" alt="" />
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eveniet.</p>
+                        <div class="card-footer center">
+                            <a class="btn" href="">Website</a>
+                            <a class="btn" href="">github</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="box-img" src="https://via.placeholder.com/500x300.png" />
-                    <div class='btn'>
-                        <a href="#" class="website-btn">Visit the Website</a>
-                        <a href="#" class="github-btn">GitHub</a>
+                <div class="card-item">
+                    <div class="card-body">
+                        <img class="card-img" src="https://picsum.photos/250/200?image=483" alt="" />
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio,
+                            eveniet.
+                        </p>
+                        <div class="card-footer center">
+                            <a class="btn" href="">Website</a>
+                            <a class="btn" href="">github</a>
+                        </div>
                     </div>
-                </div> -->
+                </div>
+                <!-- <div class="card-item">
+                    <div class="card-body">
+                        <img class="card-img" src="https://picsum.photos/250/200?image=484" alt="" />
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eveniet.</p>
+                        <div class="card-footer center">
+                            <a class="btn" href="">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="card-body">
+                        <img class="card-img" src="https://picsum.photos/250/200?image=485" alt="" />
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eveniet.
+                        </p>
+                        <div class="card-footer center">
+                            <a class="btn" href="">Details</a>
+                        </div> -->
+            </div>
+            </div>
             </div>
         </section>
         <section id="contact">
@@ -94,9 +129,12 @@
         <footer id="footer-content">
             <div class="links">
                 <div class="buttons">
-                    <button><a href="https://github.com/ClaudioBardales" target="_blank"><i class="fab fa-github"></i></a></button>
-                    <button><a href="https://www.linkedin.com/in/claudiobardales/" target="_blank"><i class="fab fa-linkedin-in"></i></a></button>
-                    <button><a href="https://twitter.com/chitocodes" target="_blank"><i class="fab fa-twitter"></i></a></button>
+                    <button><a href="https://github.com/ClaudioBardales" target="_blank"><i
+                                class="fab fa-github"></i></a></button>
+                    <button><a href="https://www.linkedin.com/in/claudiobardales/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a></button>
+                    <button><a href="https://twitter.com/chitocodes" target="_blank"><i
+                                class="fab fa-twitter"></i></a></button>
                 </div>
                 <p>Claudio Bardales &#169; 2019</p>
             </div>
