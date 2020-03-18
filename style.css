@@ -14,43 +14,35 @@
         
         p {
             font-size: 16px;
-            line-height: 1.5;
+            line-height: 1.6;
+            font-family: 'Raleway', Helvetica, Arial, sans-serif;
         }
         /* NAVBAR & INTRODUCTION */
-        
-        .first-section {
-            height: 100vh;
-            margin: auto;
-            background-color: black;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
         
         .navbar-container {
             width: 95%;
             margin: auto;
+            border: 1px solid black;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            padding: 8px;
         }
         
         .navbar {
-            z-index: 1;
             position: fixed;
             top: 0;
             width: 100%;
-            padding: 0.5rem;
             background-color: #fff8f0;
-        }
-        
-        .navbar .icon {
-            display: none;
+            z-index: 1;
         }
         
         .nav-links {
             display: flex;
+            align-items: center;
             list-style-type: none;
+        }
+        
+        .nav-links-right {
+            margin-left: auto;
         }
         
         .nav-links li a,
@@ -64,6 +56,7 @@
             text-transform: uppercase;
             letter-spacing: 1.5px;
             padding: 7px;
+            background-color: #fff8f0;
         }
         
         .navbar a {
@@ -81,13 +74,20 @@
             color: #7f8a94;
             opacity: 1;
         }
+        /* HERO IMAGE */
+        
+        .hero-image {
+            height: 100vh;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         
         .introduction {
             color: #fff8f0;
-            display: flex;
             flex-direction: column;
-            align-items: center;
-            align-content: center;
+            text-align: center;
         }
         
         .introduction h1 {
@@ -130,8 +130,6 @@
             justify-content: space-around;
             width: 85%;
             margin: auto;
-            /* margin: 50px;
-    padding: 15px; */
         }
         
         .bio img {
@@ -142,7 +140,7 @@
         }
         
         .text-content {
-            padding: 10px;
+            padding: 5px;
             font-family: 'Dosis', sans-serif;
         }
         
@@ -152,8 +150,7 @@
         /* PROJECTS SECTION */
         
         #myprojects {
-            height: auto;
-            width: 100vw;
+            min-height: 100vh;
             background-color: black;
             padding: 20px 0;
             display: flex;
@@ -168,10 +165,12 @@
             text-align: center;
             font-size: 2rem;
         }
-        /*Flexbox Cards*/
+        /* Grid Cards */
         
         .cards {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 1rem;
             width: 90%;
             margin: auto;
         }
@@ -361,27 +360,27 @@
             }
         }
         
-        @media only screen and (max-width: 1280px) {}
+        @media only screen and (max-width: 1280px) {
+            .cards {
+                grid-template-columns: repeat(2, 1fr);
+                width: 95%;
+            }
+        }
         /* TABLET */
         
         @media only screen and (max-width: 768px) {
-            .first-section {
-                width: auto;
-            }
-            .introduction h2 {
-                font-size: 50px;
-            }
-            .navbar-container {
-                flex-direction: column;
-                position: none;
-            }
-            .nav-links {
+            .navbar .nav-links {
                 flex-direction: column;
                 align-items: center;
             }
-            .nav-links li {
-                padding: 10px;
+            .navbar-container {
+                justify-content: center;
+            }
+            .nav-links {
                 display: none;
+            }
+            .introduction h2 {
+                font-size: 50px;
             }
             .bio {
                 margin: auto;
@@ -390,7 +389,6 @@
             }
             .cards {
                 display: block;
-                width: 85%
             }
             .card-item {
                 width: 75%;
